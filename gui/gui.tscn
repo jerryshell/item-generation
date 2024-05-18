@@ -1,0 +1,155 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsrtvobl101kn"]
+
+[ext_resource type="Script" path="res://gui/gui.gd" id="1_wj8i7"]
+
+[node name="GUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wj8i7")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -97.0
+offset_right = -152.0
+offset_bottom = 90.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_font_sizes/font_size = 50
+text = "Item
+Generation"
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 222.0
+offset_top = 183.0
+offset_right = 594.0
+offset_bottom = 463.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+offset_left = 21.0
+offset_top = 23.0
+offset_right = 234.0
+offset_bottom = 73.0
+
+[node name="NameContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="PrefixLabel" type="Label" parent="Panel/VBoxContainer/NameContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Fierce"
+
+[node name="ItemNameLabel" type="Label" parent="Panel/VBoxContainer/NameContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Sword"
+
+[node name="SuffixLabel" type="Label" parent="Panel/VBoxContainer/NameContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "of the Warrior"
+
+[node name="RariryContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="RarityLabel" type="Label" parent="Panel/VBoxContainer/RariryContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "common"
+uppercase = true
+
+[node name="RequiredStrengthContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer/RequiredStrengthContainer"]
+layout_mode = 2
+text = "Required Strength:"
+
+[node name="RequiredStrengthLabel" type="Label" parent="Panel/VBoxContainer/RequiredStrengthContainer"]
+layout_mode = 2
+text = "100"
+
+[node name="RequiredDexterityContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer/RequiredDexterityContainer"]
+layout_mode = 2
+text = "Required Dexterity:"
+
+[node name="RequiredDexterityLabel" type="Label" parent="Panel/VBoxContainer/RequiredDexterityContainer"]
+layout_mode = 2
+text = "100"
+
+[node name="DamageContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer/DamageContainer"]
+layout_mode = 2
+text = "Damage:"
+
+[node name="DamageLabel" type="Label" parent="Panel/VBoxContainer/DamageContainer"]
+layout_mode = 2
+text = "100"
+
+[node name="DefenseContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer/DefenseContainer"]
+layout_mode = 2
+text = "Defense:"
+
+[node name="DefenseLabel" type="Label" parent="Panel/VBoxContainer/DefenseContainer"]
+layout_mode = 2
+text = "100"
+
+[node name="BlockContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer/BlockContainer"]
+layout_mode = 2
+text = "Block:"
+
+[node name="BlockLabel" type="Label" parent="Panel/VBoxContainer/BlockContainer"]
+layout_mode = 2
+text = "100"
+
+[node name="PrefixContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="PrefixEffectValueLabel" type="Label" parent="Panel/VBoxContainer/PrefixContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Block:"
+
+[node name="PrefixEffectTextLabel" type="Label" parent="Panel/VBoxContainer/PrefixContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "100"
+
+[node name="SuffixContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="SuffixEffectValueLabel" type="Label" parent="Panel/VBoxContainer/SuffixContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Block:"
+
+[node name="SuffixEffectTextLabel" type="Label" parent="Panel/VBoxContainer/SuffixContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "100"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

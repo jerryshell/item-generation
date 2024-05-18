@@ -1,0 +1,170 @@
+{
+  "itype_iaffixtemp_10001": {
+    "id": "itype_iaffixtemp_10001",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "fierce",
+    "item_type": "sword"
+  },
+  "itype_iaffixtemp_10002": {
+    "id": "itype_iaffixtemp_10002",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "sharp",
+    "item_type": "sword"
+  },
+  "itype_iaffixtemp_10003": {
+    "id": "itype_iaffixtemp_10003",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_flame",
+    "item_type": "sword"
+  },
+  "itype_iaffixtemp_10004": {
+    "id": "itype_iaffixtemp_10004",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_storm",
+    "item_type": "sword"
+  },
+  "itype_iaffixtemp_10005": {
+    "id": "itype_iaffixtemp_10005",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_agile",
+    "item_type": "sword"
+  },
+  "itype_iaffixtemp_10006": {
+    "id": "itype_iaffixtemp_10006",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_warrior",
+    "item_type": "sword"
+  },
+  "itype_iaffixtemp_10007": {
+    "id": "itype_iaffixtemp_10007",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "fierce",
+    "item_type": "axe"
+  },
+  "itype_iaffixtemp_10008": {
+    "id": "itype_iaffixtemp_10008",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "sharp",
+    "item_type": "axe"
+  },
+  "itype_iaffixtemp_10009": {
+    "id": "itype_iaffixtemp_10009",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_flame",
+    "item_type": "axe"
+  },
+  "itype_iaffixtemp_10010": {
+    "id": "itype_iaffixtemp_10010",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_storm",
+    "item_type": "axe"
+  },
+  "itype_iaffixtemp_10011": {
+    "id": "itype_iaffixtemp_10011",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_warrior",
+    "item_type": "axe"
+  },
+  "itype_iaffixtemp_10012": {
+    "id": "itype_iaffixtemp_10012",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "blocking",
+    "item_type": "shield"
+  },
+  "itype_iaffixtemp_10013": {
+    "id": "itype_iaffixtemp_10013",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "stout",
+    "item_type": "shield"
+  },
+  "itype_iaffixtemp_10014": {
+    "id": "itype_iaffixtemp_10014",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "vigorous",
+    "item_type": "shield"
+  },
+  "itype_iaffixtemp_10015": {
+    "id": "itype_iaffixtemp_10015",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "barbed",
+    "item_type": "shield"
+  },
+  "itype_iaffixtemp_10016": {
+    "id": "itype_iaffixtemp_10016",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_agile",
+    "item_type": "shield"
+  },
+  "itype_iaffixtemp_10017": {
+    "id": "itype_iaffixtemp_10017",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_defender",
+    "item_type": "shield"
+  },
+  "itype_iaffixtemp_10018": {
+    "id": "itype_iaffixtemp_10018",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "stout",
+    "item_type": "helm"
+  },
+  "itype_iaffixtemp_10019": {
+    "id": "itype_iaffixtemp_10019",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "vigorous",
+    "item_type": "helm"
+  },
+  "itype_iaffixtemp_10020": {
+    "id": "itype_iaffixtemp_10020",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_agile",
+    "item_type": "helm"
+  },
+  "itype_iaffixtemp_10021": {
+    "id": "itype_iaffixtemp_10021",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_warrior",
+    "item_type": "helm"
+  },
+  "itype_iaffixtemp_10022": {
+    "id": "itype_iaffixtemp_10022",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_defender",
+    "item_type": "helm"
+  },
+  "itype_iaffixtemp_10023": {
+    "id": "itype_iaffixtemp_10023",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "stout",
+    "item_type": "body"
+  },
+  "itype_iaffixtemp_10024": {
+    "id": "itype_iaffixtemp_10024",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "vigorous",
+    "item_type": "body"
+  },
+  "itype_iaffixtemp_10025": {
+    "id": "itype_iaffixtemp_10025",
+    "item_affix_category": "prefix",
+    "item_affix_template_id": "barbed",
+    "item_type": "body"
+  },
+  "itype_iaffixtemp_10026": {
+    "id": "itype_iaffixtemp_10026",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_agile",
+    "item_type": "body"
+  },
+  "itype_iaffixtemp_10027": {
+    "id": "itype_iaffixtemp_10027",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_warrior",
+    "item_type": "body"
+  },
+  "itype_iaffixtemp_10028": {
+    "id": "itype_iaffixtemp_10028",
+    "item_affix_category": "suffix",
+    "item_affix_template_id": "of_the_defender",
+    "item_type": "body"
+  }
+}

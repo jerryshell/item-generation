@@ -1,0 +1,101 @@
+{
+  "barbed": {
+    "category": "prefix",
+    "effect": "reflection",
+    "effect_text": "% Damage Reflected",
+    "effect_value_max": 15.0,
+    "effect_value_min": 5.0,
+    "id": "barbed",
+    "name": "Barbed"
+  },
+  "blocking": {
+    "category": "prefix",
+    "effect": "block",
+    "effect_text": "% Block Chance",
+    "effect_value_max": 7.0,
+    "effect_value_min": 2.0,
+    "id": "blocking",
+    "name": "Blocking"
+  },
+  "fierce": {
+    "category": "prefix",
+    "effect": "attack",
+    "effect_text": "Physical Attack Damge",
+    "effect_value_max": 60.0,
+    "effect_value_min": 20.0,
+    "id": "fierce",
+    "name": "Fierce"
+  },
+  "of_the_agile": {
+    "category": "suffix",
+    "effect": "agility",
+    "effect_text": "Agility",
+    "effect_value_max": 60.0,
+    "effect_value_min": 20.0,
+    "id": "of_the_agile",
+    "name": "of the Agile"
+  },
+  "of_the_defender": {
+    "category": "suffix",
+    "effect": "fortitude",
+    "effect_text": "Fortitude",
+    "effect_value_max": 60.0,
+    "effect_value_min": 20.0,
+    "id": "of_the_defender",
+    "name": "of the Defender"
+  },
+  "of_the_flame": {
+    "category": "suffix",
+    "effect": "fire_damage",
+    "effect_text": "Fire Damage",
+    "effect_value_max": 180.0,
+    "effect_value_min": 25.0,
+    "id": "of_the_flame",
+    "name": "of the Flame"
+  },
+  "of_the_storm": {
+    "category": "suffix",
+    "effect": "lightning_damage",
+    "effect_text": "Lightning Damage",
+    "effect_value_max": 180.0,
+    "effect_value_min": 25.0,
+    "id": "of_the_storm",
+    "name": "of the Storm"
+  },
+  "of_the_warrior": {
+    "category": "suffix",
+    "effect": "strenght",
+    "effect_text": "Strenght",
+    "effect_value_max": 60.0,
+    "effect_value_min": 20.0,
+    "id": "of_the_warrior",
+    "name": "of the Warrior"
+  },
+  "sharp": {
+    "category": "prefix",
+    "effect": "bleed",
+    "effect_text": "Damage/sec for 5 seconds",
+    "effect_value_max": 25.0,
+    "effect_value_min": 5.0,
+    "id": "sharp",
+    "name": "Sharp"
+  },
+  "stout": {
+    "category": "prefix",
+    "effect": "defense",
+    "effect_text": "Defense",
+    "effect_value_max": 60.0,
+    "effect_value_min": 2.0,
+    "id": "stout",
+    "name": "Stout"
+  },
+  "vigorous": {
+    "category": "prefix",
+    "effect": "health",
+    "effect_text": "extra Health",
+    "effect_value_max": 850.0,
+    "effect_value_min": 150.0,
+    "id": "vigorous",
+    "name": "Vigorous"
+  }
+}
